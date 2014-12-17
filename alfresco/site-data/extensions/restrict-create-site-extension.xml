@@ -1,18 +1,24 @@
 <extension>
- <modules>
-  <module>
-   <id>Remove create site menu option for non admin users</id>
-   <version>1.0</version>
-   <customizations>
-    <customization>
-     <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
-     <sourcePackageRoot>ingen.header</sourcePackageRoot>
-    </customization>
-    <customization>
-     <targetPackageRoot>org.alfresco.components.dashlets</targetPackageRoot>
-     <sourcePackageRoot>ingen.dashlets</sourcePackageRoot>
-    </customization>
-   </customizations>
-  </module>
- </modules>
+  <modules>
+    <module>
+      <id>Restrict create site menu option</id>
+      <version>1.0</version>
+      <customizations>
+        <customization>
+          <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+          <sourcePackageRoot>restrict.site-create</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+    <module>
+      <id>Restrict create site dashlet button</id>
+      <version>1.0</version>
+      <customizations>
+        <customization>
+          <targetPackageRoot>org.alfresco.components.dashlets</targetPackageRoot>
+          <sourcePackageRoot>restrict.dashlets</sourcePackageRoot>
+        </customization>
+      </customizations>
+    </module>
+  </modules>
 </extension>
