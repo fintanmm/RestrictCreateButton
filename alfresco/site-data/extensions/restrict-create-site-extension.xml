@@ -1,0 +1,18 @@
+<extension>
+ <modules>
+  <module>
+   <id>Remove create site menu option for non admin users</id>
+   <version>1.0</version>
+   <customizations>
+    <customization>
+     <targetPackageRoot>org.alfresco.share.header</targetPackageRoot>
+     <sourcePackageRoot>ingen.header</sourcePackageRoot>
+    </customization>
+    <customization>
+     <targetPackageRoot>org.alfresco.components.dashlets</targetPackageRoot>
+     <sourcePackageRoot>ingen.dashlets</sourcePackageRoot>
+    </customization>
+   </customizations>
+  </module>
+ </modules>
+</extension>
