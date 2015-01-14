@@ -1,7 +1,8 @@
 <extension>
   <modules>
     <module>
-      <id>Restrict create site menu option</id>
+      <id>Restrict Create Site Menu Option</id>
+      <auto-deploy>true</auto-deploy>
       <version>1.0</version>
       <customizations>
         <customization>
@@ -11,7 +12,8 @@
       </customizations>
     </module>
     <module>
-      <id>Restrict create site dashlet button</id>
+      <id>Restrict Create Site Dashlet Button</id>
+      <auto-deploy>true</auto-deploy>
       <version>1.0</version>
       <customizations>
         <customization>
