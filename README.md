@@ -4,6 +4,8 @@ The group can be changed by editing siteCreateGroup.
 
 Auto deploy is set to true.
 
+Create a jar file, then deploy the file to shared/lib folder. Restart Alfresco.
+
 References:
 http://stackoverflow.com/questions/22531555/how-to-hide-create-site-link-for-particular-user
 https://forums.alfresco.com/forum/end-user-discussions/alfresco-share/disable-create-site-link-42-community-01102013-1306
