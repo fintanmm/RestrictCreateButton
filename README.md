@@ -1,5 +1,7 @@
 # Disable the create site for everyone bar Alfresco Admin user
 
+Suport Alfresco version 4.2.x
+
 Currently it only checks to see if the user is admin.
 
 The plan is to have a group that can be changed by editing siteCreateGroup.
